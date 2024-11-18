@@ -12,5 +12,5 @@ hasil analisis Wireshark digambarkan dalam diagram TCP Sequence, yang menunjukka
 
 **Connection Establishment (Three-way handshaking)**
 
-**- Step 1: SYN**
+- **Step 1: SYN**  
    Client mengirimkan paket SYN dengan `Seq=0` ke Server untuk memulai koneksi.
