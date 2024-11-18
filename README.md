@@ -4,7 +4,7 @@
 
 The **Three-Way Handshake** is a critical process in the TCP/IP protocol suite that establishes a reliable connection between a client and a server. This handshake ensures that both devices are ready to communicate and agree on the initial parameters before data transfer begins.
 
-## How It Works
+### How It Works
 
 The handshake involves three steps:
 
