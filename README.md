@@ -10,4 +10,7 @@ hasil analisis Wireshark digambarkan dalam diagram TCP Sequence, yang menunjukka
 
 ## TCP Connection Sequence Diagram
 
-**Tahapan Proses**
+**Connection Establishment (Three-way handshaking)**
+
+1. **# Step 1: SYN**
+   - Client mengirimkan paket SYN dengan `Seq=0` ke Server untuk memulai koneksi.
