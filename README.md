@@ -96,6 +96,12 @@ Proses Data Transfer terus berlanjut hingga Step 30. Data yang dikirimkan akan t
 
 **3. Connection termination (three-way handshaking)** 
 
+- **Step 31 :** Server mengirimkan **FIN + ACK** yang menandakan bahwa server ingin menutup koneksi.
+- **Step 32 :** Client mengkonfirmasi dengan **ACK**.
+- **Step 33 :** Client mengirimkan **FIN + ACK** yang menandakan bahwa client juga ingin menutup koneksi.
+- **Step 34 :** server mengkonfirmasi penutupan koneksi dengan **ACK**.
+
+
 
 
 
