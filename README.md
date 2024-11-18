@@ -53,7 +53,7 @@ Tahap ini adalah proses untuk menutup koneksi setelah pertukaran data selesai.
 
 ## Penjelasan Tambahan
 
-- **Seq (Sequence Number): ** Nomor urut yang digunakan untuk melacak byte data yang dikirimkan.
-- **Ack (Acknowledgment Number): ** Nomor untuk mengonfirmasi byte data yang telah diterima.
-- **PSH : ** Memberitahu penerima untuk segera memproses data.
-- **FIN : ** Digunakan untuk mengakhiri koneksi.
+- **Seq (Sequence Number):** Nomor urut yang digunakan untuk melacak byte data yang dikirimkan.
+- **Ack (Acknowledgment Number):** Nomor untuk mengonfirmasi byte data yang telah diterima.
+- **PSH :** Memberitahu penerima untuk segera memproses data.
+- **FIN :** Digunakan untuk mengakhiri koneksi.
