@@ -60,7 +60,7 @@ Tahap ini adalah proses untuk menutup koneksi setelah pertukaran data selesai.
 
 
 
-# Tugas 2 : Analisis Wireshark
+# Tugas 2 : Analisis Koneksi TCP Menggunakan Wireshark
 
 ## Deskripsi Singkat
 
