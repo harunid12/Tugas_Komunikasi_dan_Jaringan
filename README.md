@@ -71,5 +71,5 @@ Dari **43 paket** yang tercatat dalam file capture **http.cap**,  hanya **34 pak
 
 ## TCP Sequence Diagram
 
-1 **Connection Establishment (Three-way handshaking)**
+**1. Connection Establishment (Three-way handshaking)**
 
