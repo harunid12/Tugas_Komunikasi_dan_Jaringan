@@ -35,3 +35,25 @@ pada tahap ini, **Client** dan **Server** saling bertukar data. prosesnya meliba
 
 - **Step 7: ACK**
   Client mengkonfirmasi penerimaan data dengan paket : Seq = 2, Ack =2.
+
+**Connection termination (three-way handshaking)**
+Tahap ini adalah proses untuk menutup koneksi setelah pertukaran data selesai.
+
+- **Step 8: FIN + ACK**
+  Client mengirimkan paket : Seq = 2, Ack = 2. paket **FIN** menunjukan bahwa Client ingin mengakhiri koneksi
+
+- **Step 9: ACK**
+  Server mengonfirmasi permintaan dengan paket: Seq = 2, Ack = 3
+
+- **Step 10: FIN + ACK**
+  Server mengirimkan FIN untuk mengakhiri koneksi dari sisi Server: Seq = 2, Ack = 3.
+
+- **Step 11: ACK**
+  Client mengonfirmasi dengan paket: Seq = 3, Ack = 3. koneksi telah tertutup sepenuhnya.
+
+## Penjelasan Tambahan
+
+- **Seq (Sequence Number): ** Nomor urut yang digunakan untuk melacak byte data yang dikirimkan.
+- **Ack (Acknowledgment Number): ** Nomor untuk mengonfirmasi byte data yang telah diterima.
+- **PSH : ** Memberitahu penerima untuk segera memproses data.
+- **FIN : ** Digunakan untuk mengakhiri koneksi.
