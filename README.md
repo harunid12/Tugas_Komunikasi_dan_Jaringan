@@ -12,5 +12,26 @@ hasil analisis Wireshark digambarkan dalam diagram TCP Sequence, yang menunjukka
 
 **Connection Establishment (Three-way handshaking)**
 
-- **Step 1: SYN**  
-   Client mengirimkan paket SYN dengan `Seq=0` ke Server untuk memulai koneksi.
+- **Step 1: SYN (Synchronize)**  
+   Client mengirimkan paket **SYN** dengan `Seq=0` ke Server untuk memulai koneksi.
+
+- **Step 2: SYN-ACK (Synchronize-Acknowledgment)**
+  Server merespons dengan paket **SYN+ACK** yang memiliki Seq=0, Ack=1, menunjukkan bahwa server siap untuk menerima komunikasi.
+
+- **Step 3: ACK**
+  Client mengirimkan paket **ACK** dengan Seq=1, Ack=1, mengonfirmasi koneksi telah terjalin.
+
+**Data Transfer**
+pada tahap ini, **Client** dan **Server** saling bertukar data. prosesnya melibatkan flag **PSH + ACK** dan **ACK**.
+
+- **Step 4: PSH + ACK**  
+   Client mengirimkan data dengan paket : Seq = 1, Ack = 1.
+
+- **Step 5: ACK**
+  Server mengkonfirmasi penerimaan data dengan paket: Seq = 1, Ack = 2.
+
+- **Step 6: PSH + ACK**
+  Server mengirimkan data balik ke Client dengan paket : Seq = 1, Ack = 2.
+
+- **Step 7: ACK**
+  Client mengkonfirmasi penerimaan data dengan paket : Seq = 2, Ack =2.
