@@ -1,4 +1,4 @@
-# Tugas 1 : Analisis Koneksi TCP dengan Socket Programming dan Wireshark
+# Tugas 1 : Analisis Komunikasi TCP dengan Socket Programming dan Wireshark
 
 Tugas ini bertujuan untuk mempelajari komunikasi TCP antara client dan server menggunakan socket programming serta melakukan monitoring jaringan dengan Wireshark. Proses ini mencakup pengiriman data sederhana dan analisis paket TCP untuk memahami alur komunikasi, termasuk Connection establishment using three-way handshaking, Data Transfer dan Connection termination using three-way handshaking.
 
@@ -8,7 +8,7 @@ Pada tugas ini, saya memanfaatkan socket programming sederhana dari [Repository 
 
 hasil analisis Wireshark digambarkan dalam diagram TCP Sequence, yang menunjukkan detail komunikasi TCP secara berurutan dimulai dari connection establishment hingga connection termination
 
-## TCP Connection Sequence Diagram
+## TCP Sequence Diagram
 
 **Connection Establishment (Three-way handshaking)**
 
@@ -57,3 +57,19 @@ Tahap ini adalah proses untuk menutup koneksi setelah pertukaran data selesai.
 - **Ack (Acknowledgment Number):** Nomor untuk mengonfirmasi byte data yang telah diterima.
 - **PSH :** Memberitahu penerima untuk segera memproses data.
 - **FIN :** Digunakan untuk mengakhiri koneksi.
+
+
+
+# Tugas 2 : Analisis Wireshark
+
+## Deskripsi Singkat
+
+Pada tugas ini, saya melakukan analisis terhadap komunikasi TCP antara client dan server berdasarkan sample capture Wireshark yang diberikan, yaitu file **http.cap**. dari sample capture ini, analisis dilakukan untuk mengamati alur komunikasi mulai dari Connection establishment using three-way handshaking, Data Transfer dan Connection termination using three-way handshaking.
+
+Dari **43 paket** yang tercatat dalam file capture **http.cap**,  hanya **34 paket** yang berhasil diproses dalam komunikasi TCP yang melibatkan client dan server.
+
+
+## TCP Sequence Diagram
+
+1 **Connection Establishment (Three-way handshaking)**
+
