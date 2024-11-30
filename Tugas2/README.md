@@ -11,19 +11,19 @@ Dari **43 paket** yang tercatat dalam file capture **http.cap**,  hanya **34 pak
 
 berikut adalah gambaran detail mengenai proses TCP Sequence Diagram, mulai dari Connection Establishment, Data Transfer, dan Connection termination.
 
-<div style="text-align: center; font-weight: bold;">Step 1-11</div>
+**Step 1-11**
 
 <p align="center">
   <img src="./assets/TCP%20Client%20Server%20step%201-11.jpg" alt="TCP Sequence Diagram">
 </p>
 
-<div style="text-align: center; font-weight: bold;">Step 12-22</div>
+**Step 12-22**
 
 <p align="center">
   <img src="./assets/TCP%20Client%20Server%20step%2012-22.jpg" alt="TCP Sequence Diagram">
 </p>
 
-<div style="text-align: center; font-weight: bold;">Step 23-34</div>
+**Step 23-34**
 
 <p align="center">
   <img src="./assets/TCP%20Client%20Server%20step%2023-34.jpg" alt="TCP Sequence Diagram">
