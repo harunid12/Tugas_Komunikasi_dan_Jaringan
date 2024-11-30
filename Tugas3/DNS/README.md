@@ -2,6 +2,10 @@
 
 DNS adalah sistem yang berfungsi untuk menerjemahkan nama domain menjadi alamat IP yang dapat dimengerti oleh komputer. sebagai contoh domain **www.google.com** diterjemahkan menjadi **216.239.38.120**. Proses ini memungkinkan pengguna mengakses layanan di internet dengan menggunakan nama domain yang mudah diingat, tanpa harus mengingat alamat IP yang kompleks
 
+<p align="center">
+  <img src="./assets/cara_kerja_dns.jpg" alt="Cara Kerja DNS">
+</p>
+
 ## Cara Kerja DNS
 
 **1. Permintaan DNS (Query DNS)**
@@ -18,7 +22,7 @@ DNS adalah sistem yang berfungsi untuk menerjemahkan nama domain menjadi alamat 
 
 **5. Query ke TLD Nameserver**
 -   TLD (Top Level Domain), menangani domain dengan ekstensi tertentu (misal .com, .net, atau .org).
--   misal url yang diminta adalah www.google.com, maka Root Nameserver akan meneruskan permintaan ke TLD nameserver untuk mengelola domain .com
+-   url yang diminta adalah www.google.com, maka Root Nameserver akan meneruskan permintaan ke TLD nameserver untuk mengelola domain .com
 
 **6. Query ke Authoritative Nameserver**
 -   Authoritative nameserver adalah server yang menyimpan catatan DNS resmi untuk domain tertentu, misal www.google.com alamat IP nya adalah 216.239.38.120.
