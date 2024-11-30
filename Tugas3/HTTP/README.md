@@ -105,12 +105,12 @@ server {
 -   **HTTP/1.1**
 
     running container untuk HTTP/1.1 `docker start nginx-http1`. Url pada chrome adalah `http://localhost:8888`
-    ![http1](./img/http1.1.jpg)
+    ![http1](./assets/http1.1.jpg)
 
 -   **HTTP/2.0**
 
     running container untuk HTTP/2.0 `docker start nginx-http2`. Url pada chrome adalah `https://localhost:8443`
-    ![http2](./img/http2.jpg)
+    ![http2](./assets/http2.jpg)
 
 <!-- -   **HTTP/3.0**
 
@@ -123,7 +123,7 @@ Jalankan aplikasi Wireshark kemudian pilih Capture Interface nya adalah **Adapte
 -   **HTTP/1.1**
 
     berikut merupakan paket yang ditangkap dari pengujian web server dengan HTTP/1.1
-    ![http1](./img/capture_http1.jpg)
+    ![http1](./assets/capture_http1.jpg)
 
     pada capture paket Wireshark diatas, protocol nya adalah TCP. HTTP/1.1 bekerja diatas protocol TCP.
     
@@ -131,7 +131,7 @@ Jalankan aplikasi Wireshark kemudian pilih Capture Interface nya adalah **Adapte
 -   HTTP/2.0
 
     berikut merupakan paket yang ditangkap dari pengujian web server dengan HTTP/1.1
-    ![http2](./img/capture_http2.jpg)
+    ![http2](./assets/capture_http2.jpg)
 
     pada cature paket Wireshark diatas, terdapat 2 protocol yaitu TCP dan TLSv1.3. Kedua protokol, TCP dan TLSv1.3, muncul dalam capture Wireshark saat menggunakan HTTP/2.0 karena HTTP/2.0 beroperasi di atas TCP untuk pengiriman data dan di atas TLS untuk enkripsi.
 
