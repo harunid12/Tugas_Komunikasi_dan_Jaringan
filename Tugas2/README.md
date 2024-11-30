@@ -9,6 +9,14 @@ Dari **43 paket** yang tercatat dalam file capture **http.cap**,  hanya **34 pak
 
 ## TCP Sequence Diagram
 
+berikut adalah gambaran detail mengenai proses TCP Sequence Diagram, mulai dari Connection Establishment, Data Transfer, dan Connection termination.
+
+<center>**Step 1-11**</center>
+
+<p align="center">
+  <img src="./assets/TCP%20Client%20Server%20step%201-11.jpg" alt="TCP Sequence Diagram">
+</p>
+
 **1. Connection Establishment (Three-way handshaking)**
 
 - **Client** mengirimkan paket **SYN** untuk memulai koneksi
