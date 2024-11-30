@@ -10,6 +10,10 @@ hasil analisis Wireshark digambarkan dalam diagram TCP Sequence, yang menunjukka
 
 ## TCP Sequence Diagram
 
+berikut adalah gambaran detail mengenai proses TCP Sequence Diagram, mulai dari Connection Establishment, Data Transfer, dan Connection termination.
+
+![TCP Sequence Diagram](./assets/tcp%20connection%20sequnce.jpg)
+
 **Connection Establishment (Three-way handshaking)**
 
 - **Step 1: SYN (Synchronize)**  
