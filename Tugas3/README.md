@@ -1,5 +1,3 @@
-# HTTP, DNS, SMTP Analyzing
-
 ## HTTP/1.1, HTTP/2.0, HTTP/3.0
 Berikut adalah tutorialnya. [Baca Disini!](./HTTP/README.md)
 
