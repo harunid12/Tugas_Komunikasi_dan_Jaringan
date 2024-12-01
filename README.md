@@ -25,4 +25,14 @@ Kampus PENS Jl. Raya ITS Keputih Sukolilo Surabaya 60111
   </tr>
 </table>
 
+Question  below are based on the trace file tcp-ethereal-trace-1 in in http://gaia.cs.umass.edu/wireshark-labs/wireshark-traces.zip
+
+Answer the following questions for the TCP segments:
+
+**1. What is the IP address and TCP port number used by your client computer (source) to transfer the file to gaia.cs.umass.edu? (10%)**
+
+_Answer_:
+
+[figure1](./UAS_Ahmad%20Harun_1224800014/assets/figure1.jpg)
+
 
