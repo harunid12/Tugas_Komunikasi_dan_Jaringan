@@ -33,7 +33,7 @@ Answer the following questions for the TCP segments:
 
 _Answer_:
 
-![figure1](./UAS_Ahmad%20Harun_1224800014/assets/figure1.jpg)
+![figure1](./assets/figure1.jpg)
 
 <p align="center">
   <strong>Figure 1</strong>. IP Address and TCP Port Number of the client computer
@@ -45,7 +45,7 @@ From Figure 1, the IP address used by the client computer to transfer files to t
 
 _Answer_:
 
-![figure2](./UAS_Ahmad%20Harun_1224800014/assets/figure2.jpg)
+![figure2](./assets/figure2.jpg)
 
 <p align="center">
   <strong>Figure 2</strong>. IP Address and TCP Port Number of gaia.cs.umass.edu
@@ -57,7 +57,7 @@ The IP address used by the server gaia.cs.umass.edu to receive files is **128.11
 
 _Answer_:
 
-![figure3](./UAS_Ahmad%20Harun_1224800014/assets/figure3.jpg)
+![figure3](./assets/figure3.jpg)
 
 <p align="center">
   <strong>Figure 3</strong>. Sequence Number of the TCP SYN Segment
@@ -69,7 +69,7 @@ The sequence number of the TCP SYN segment used to initiate the connection betwe
 
 _Answer_:
 
-![figure4](./UAS_Ahmad%20Harun_1224800014/assets/figure4.jpg)
+![figure4](./assets/figure4.jpg)
 
 <p align="center">
   <strong>Figure 4</strong>. Sequence and Acknowledgement Number of the SYN-ACK Segment
@@ -83,7 +83,7 @@ This acknowledgement value is determined by the server gaia.cs.umass.edu by addi
 
 _Answer_:
 
-![figure5](./UAS_Ahmad%20Harun_1224800014/assets/figure5.jpg)
+![figure5](./assets/figure5.jpg)
 
 <p align="center">
   <strong>Figure 5</strong>. Sequence Number of the TCP Segment Containing the HTTP POST Command
@@ -108,7 +108,7 @@ The first six segments of the TCP connection (including the HTTP POST segment) a
 -	Segment 6: Sequence number is 6406  
 
 
-![figure6](./UAS_Ahmad%20Harun_1224800014/assets/figure6.jpg)
+![figure6](./assets/figure6.jpg)
 
 <p align="center">
   <strong>Figure 6</strong>. Sequence Number of the TCP Segment Containing the HTTP POST Command
