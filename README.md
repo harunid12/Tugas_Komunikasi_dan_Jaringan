@@ -79,6 +79,43 @@ The sequence number of the SYN-ACK segment sent by gaia.cs.umass.edu to the clie
 The value in the Acknowledgement column of the SYN-ACK segment is **1**. 
 This acknowledgement value is determined by the server gaia.cs.umass.edu by adding 1 to the initial sequence number of the SYN segment sent by the client computer. Since the initial sequence number of the SYN segment is 0, the acknowledgement value in the SYN-ACK segment becomes 1.
 
+**5. What is the sequence number of the TCP segment containing the HTTP POST command? Note that in order to find the POST command, you’ll need to dig into the packet content field at the bottom of the Wireshark window, looking for a segment with a “POST” within its DATA field.(Attach the screenshot of your Wireshark's display) (15%)**
+
+_Answer_:
+
+![figure5](./UAS_Ahmad%20Harun_1224800014/assets/figure5.jpg)
+
+<p align="center">
+  <strong>Figure 5</strong>. Sequence Number of the TCP Segment Containing the HTTP POST Command
+</p>
+
+The sequence number of the TCP segment containing the HTTP POST command is **1**.
+
+6.	Consider the TCP segment containing the HTTP POST as the first segment in the TCP connection. What are the sequence numbers of the first six TCP connection segments (including the HTTP POST segment)? At what time was each segment sent? When was the ACK for each segment received? Given the difference between when each TCP segment was sent, and when its acknowledgement was received, what is the RTT value for each of the six segments? What is the EstimatedRTT value (see page 237 in textbook) after the receipt of each ACK? Assume that the value of the EstimatedRTT is equal to the measured RTT for the first segment, and then is computed using the EstimatedRTT equation on page 237 for all subsequent segments. (30%)
+Note: Wireshark has a nice feature that allows you to plot the RTT for each of the TCP segments sent. Select a TCP segment in the “listing of captured packets” window that is being sent from the client to the gaia.cs.umass.edu server. Then select: Statistics->TCP Stream Graph-
+>Round Trip Time Graph.
+
+_Answer_:
+
+What are the sequence numbers of the first six TCP connection segments (including the HTTP POST segment)?
+
+The first six segments of the TCP connection (including the HTTP POST segment) are No. 4, 5, 7, 8, 10, and 11.  
+-   Segment 1: Sequence number is 1  
+-	Segment 2: Sequence number is 566  
+-	Segment 3: Sequence number is 2026  
+-	Segment 4: Sequence number is 3486  
+-	Segment 5: Sequence number is 4986  
+-	Segment 6: Sequence number is 6406  
+
+
+![figure6](./UAS_Ahmad%20Harun_1224800014/assets/figure6.jpg)
+
+<p align="center">
+  <strong>Figure 6</strong>. Sequence Number of the TCP Segment Containing the HTTP POST Command
+</p>
+
+
+
 
 
 
