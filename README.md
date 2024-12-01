@@ -33,6 +33,6 @@ Answer the following questions for the TCP segments:
 
 _Answer_:
 
-[figure1](./UAS_Ahmad%20Harun_1224800014/assets/figure1.jpg)
+![figure1](./UAS_Ahmad%20Harun_1224800014/assets/figure1.jpg)
 
 
