@@ -1,13 +1,33 @@
-# Komunikasi dan Jaringan Komputer
+# Ujian Akhir Semester - Komunikasi dan Jaringan Komputer
 
-## Tugas 1
-Untuk detail tugas 1 mengenai Analisis Komunikasi TCP dengan Socket Programming dan Wireshark. [Baca Disini!](./Tugas1/README.md)
+**Semester Gasal Tahun Ajaran 2024/2025** 
+**PROGRAM PASCASARJANA** 
+**TEKNIK INFORMATIKA & KOMPUTER** 
+**POLITEKNIK ELEKTRONIKA NEGERI SURABAYA** 
+Kampus PENS Jl. Raya ITS Keputih Sukolilo Surabaya 60111
 
-## Tugas 2
-Untuk detail tugas 2 mengenai Analisis Koneksi TCP Menggunakan Wireshark. [Baca Disini!](./Tugas2/README.md)
+<table>
+  <tr>
+    <td>
+      <strong>Mata Kuliah</strong><br>
+      Komunikasi dan Jaringan Komputer<br><br>
+      
+      <strong>Kelas</strong><br>
+      S2 IT A<br><br>
+      
+      <strong>Waktu dan Jam</strong><br>
+      13:00-17:00 (4 jam)
+    </td>
+    <td>
+      <strong>Dosen</strong><br>
+      Ferry Astika Saputra<br><br>
+      
+      <strong>Sifat</strong><br>
+      Terbuka<br><br>
+      
+      <strong>Hari / Tgl</strong><br>
+      Senin, 2 Desember 2024
+    </td>
+  </tr>
+</table>
 
-## Tugas 3
-Untuk detail tugas 3 mengenai HTTP, DNS, SMTP. [Baca Disini!](./Tugas3/README.md)
-
-## UAS Semester Gasal 2024
-Untuk detail UAS Semester Gasal 2024. [Baca Disini!](./UAS_Ahmad%20Harun_1224800014/README.md)
