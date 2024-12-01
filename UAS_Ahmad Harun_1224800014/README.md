@@ -152,9 +152,7 @@ To calculate RTT, the formula is:  RTT = Ack Received Time – Sent Time.
 
 A summary of several answers from question number 6 is provided in Table 1
 
-<p align="center">
-  <strong>Table 1</strong>. Sequence Number, Time of Transmission, ACK Receipt, and RTT for the First 6 TCP Segments.
-</p>
+<strong>Table 1</strong>. Sequence Number, Time of Transmission, ACK Receipt, and RTT for the First 6 TCP Segments.
 
 | **Segment**   | **Time of Transmission** | **ACK Receipt Time** | **RTT**     |
 |---|---|---|---|
