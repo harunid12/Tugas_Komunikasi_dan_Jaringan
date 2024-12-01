@@ -35,4 +35,10 @@ _Answer_:
 
 ![figure1](./UAS_Ahmad%20Harun_1224800014/assets/figure1.jpg)
 
+<p align="center">
+  <strong>Figure 1</strong>. IP Address and TCP Port Number of the client computer
+</p>
+
+
+
 
