@@ -10,18 +10,20 @@
 
 Kampus PENS Jl. Raya ITS Keputih Sukolilo Surabaya 60111
 
-| **Mata Kuliah**        | **Dosen**              |
-|------------------------|------------------------|
-| Komunikasi dan Jaringan Komputer | Ferry Astika Saputra  |
-
-| **Kelas**              | **Sifat**              |
-|------------------------|------------------------|
-| S2 IT A                | Terbuka                |
-
-| **Waktu dan Jam**      | **Hari / Tgl**         |
-|------------------------|------------------------|
-| 13:00-17:00 (4 jam)    | Senin, 2 Desember 2024 |
-
+<table>
+  <tr>
+    <td>
+      <strong>Mata Kuliah</strong>: Komunikasi dan Jaringan Komputer<br>
+      <strong>Kelas</strong>: S2 IT A<br>
+      <strong>Waktu dan Jam</strong>: 13:00-17:00 (4 jam)
+    </td>
+    <td>
+      <strong>Dosen</strong>: Ferry Astika Saputra<br>
+      <strong>Sifat</strong>: Terbuka<br>
+      <strong>Hari / Tgl</strong>: Senin, 2 Desember 2024
+    </td>
+  </tr>
+</table>
 
 Question  below are based on the trace file tcp-ethereal-trace-1 in in http://gaia.cs.umass.edu/wireshark-labs/wireshark-traces.zip
 
