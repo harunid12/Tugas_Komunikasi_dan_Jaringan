@@ -1,9 +1,13 @@
 # Ujian Akhir Semester - Komunikasi dan Jaringan Komputer
 
 **Semester Gasal Tahun Ajaran 2024/2025** 
+
 **PROGRAM PASCASARJANA** 
+
 **TEKNIK INFORMATIKA & KOMPUTER** 
+
 **POLITEKNIK ELEKTRONIKA NEGERI SURABAYA** 
+
 Kampus PENS Jl. Raya ITS Keputih Sukolilo Surabaya 60111
 
 <table>
