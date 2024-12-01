@@ -180,27 +180,27 @@ A summary of several answers from question number 6 is provided in Table 1
 The EstimatedRTT is calculated by the equation:
 EstimatedRTT (current) = 0.875 * EstimatedRTT (previous) + 0.125 * SampleRTT
 
-**Segmen 1**:
+**Segment 1**:
 -   SampleRTT = 0.02746
 -   EstimatedRTT for segment 1 = SampleRTT = 0.02746
 
-**Segmen 2**:
+**Segment 2**:
 -   SampleRTT = 0.02746
 -   EstimatedRTT = 0.875 * 0.02746 + 0.125 * 0.035557 = 0.0285
 
-**Segmen 3**:
+**Segment 3**:
 -   SampleRTT = 0.0285
 -   EstimatedRTT = 0.875 * 0.0285 + 0.125 * 0.070059 = 0.0337
 
-**Segmen 4**:
+**Segment 4**:
 -   SampleRTT = 0.0337
 -   EstimatedRTT = 0.875 * 0.0337 + 0.125 * 0.11443 = 0.0438
 
-**Segmen 5**:
+**Segment 5**:
 -   SampleRTT = 0.0438
 -   EstimatedRTT = 0.875 * 0.0438 + 0.125 * 0.13989 = 0.0558
 
-**Segmen 6**:
+**Segment 6**:
 -   SampleRTT = 0.0558
 -   EstimatedRTT = 0.875 * 0.0558 + 0.125 * 0.18964 = 0.0725 Second
 
