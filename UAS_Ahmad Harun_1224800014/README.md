@@ -198,6 +198,21 @@ EstimatedRTT (current) = 0.875 * EstimatedRTT (previous) + 0.125 * SampleRTT
 -   SampleRTT = 0.0558
 -   EstimatedRTT = 0.875 * 0.0558 + 0.125 * 0.18964 = 0.0725 Second
 
+---
+
+**7. What is the length of each of the first six TCP segments?(Attach the screenshot of your Wireshark's display)  (15%)**
+
+_Answer_:
+
+![figure8](./assets/figure8.jpg)
+
+<p align="center">
+  <strong>Figure 8</strong>. Data Length of the First six TCP Segment
+</p>
+
+The first six TCP segments have the following data lengths:
+
+565 bytes, 1460 bytes, 1460 bytes, 1460 bytes, 1460 bytes, dan 1460 bytes.
 
 ---
 
