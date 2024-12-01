@@ -155,14 +155,17 @@ A summary of several answers from question number 6 is provided in Table 1
 <p align="center">
   <strong>Table 1</strong>. Sequence Number, Time of Transmission, ACK Receipt, and RTT for the First 6 TCP Segments.
 </p>
-| Segment   | Time of Transmission | ACK Receipt Time | RTT     |
-|-----------|----------------------|------------------|---------|
+
+| **Segment**   | **Time of Transmission** | **ACK Receipt Time** | **RTT**     |
+|---|---|---|---|
 | Segment 1 | 0.026477             | 0.053937         | 0.02746 |
 | Segment 2 | 0.041737             | 0.077294         | 0.035557|
 | Segment 3 | 0.054026             | 0.124085         | 0.070059|
 | Segment 4 | 0.054690             | 0.169118         | 0.11443 |
 | Segment 5 | 0.077405             | 0.217299         | 0.13989 |
 | Segment 6 | 0.078157             | 0.267802         | 0.18964 |
+
+
 
 
 
