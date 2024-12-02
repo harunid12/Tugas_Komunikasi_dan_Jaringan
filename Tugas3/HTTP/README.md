@@ -23,7 +23,7 @@ SSL (Secure Sockets Layer) merupakan protokol kriptografi yang digunakan untuk m
 
 perintah untuk generate nya adalah `openssl req -x509 -newkey rsa:2048 -keyout nginx.key -out nginx.crt -days 365`
 
-**c. Konfiguasi Nginx untuk HTTP/2.0**
+**c. Konfiguasi Nginx untuk HTTP/2.0 dan HTTP/3.0**
 
 untuk HTTP/1.1 tidak diperlukan konfigurasi tambahan, karena Image Nginx yang sudah di pull sebelumnya secara default berjalan pada HTTP/1.1
 
@@ -46,32 +46,7 @@ server {
 }
 ```
 
-<!-- -   konfigurasi `http3.conf` sebagai berikut:
-
-```
-server {
-    listen 443 ssl http2;
-    listen 443 quic reuseport;
-    listen [::]:443 ssl http2;
-    listen [::]:443 quic reuseport;
-
-    server_name localhost;
-
-    ssl_protocols TLSv1.3;
-    ssl_certificate /etc/ssl/nginx.crt;
-    ssl_certificate_key /etc/ssl/nginx.key;
-
-    http3 on;
-    add_header Alt-Svc 'h3=":443"; ma=86400'; # Notify clients about HTTP/3
-    add_header X-Content-Type-Options nosniff;
-
-    location / {
-        root /usr/share/nginx/html;
-        index index.html;
-    }
-}
-
-``` -->
+-   Belum menemukan konfigurasi yang tepat untuk HTTP/3.0
 
 **d. Create Container**
 
