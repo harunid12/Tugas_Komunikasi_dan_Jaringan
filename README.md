@@ -1,4 +1,4 @@
-# Ujian Akhir Semester - Komunikasi dan Jaringan Komputer
+# Komunikasi dan Jaringan Komputer
 
 ## Tugas 1
 Untuk detail tugas 1 mengenai Analisis Komunikasi TCP dengan Socket Programming dan Wireshark. [Baca Disini!](./Tugas1/README.md)
