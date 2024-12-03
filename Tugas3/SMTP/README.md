@@ -2,6 +2,10 @@
 
 SMTP (Simple Mail Transfer Protocol) adalah protokol standar yang digunakan untuk mengirim email melalui jaringan. Protokol ini bekerja berdasarkan model client-server dan dirancang untuk menangani pengiriman email dari pengirim ke penerima melalui server mail.
 
+<p align="center">
+  <img src="./assets/ilustrasi_smtp.jpg" alt="Cara Kerja SMTP">
+</p>
+
 ## Cara kerja SMTP
 
 **1. Pengguna Menulis dan Mengirim Email:**
