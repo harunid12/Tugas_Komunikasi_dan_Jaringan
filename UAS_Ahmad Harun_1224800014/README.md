@@ -185,23 +185,23 @@ EstimatedRTT (current) = 0.875 * EstimatedRTT (previous) + 0.125 * SampleRTT
 -   EstimatedRTT for segment 1 = SampleRTT = 0.02746
 
 **Segment 2**:
--   SampleRTT = 0.02746
+-   SampleRTT = 0.035557
 -   EstimatedRTT = 0.875 * 0.02746 + 0.125 * 0.035557 = 0.0285
 
 **Segment 3**:
--   SampleRTT = 0.0285
+-   SampleRTT = 0.070059
 -   EstimatedRTT = 0.875 * 0.0285 + 0.125 * 0.070059 = 0.0337
 
 **Segment 4**:
--   SampleRTT = 0.0337
+-   SampleRTT = 0.11443
 -   EstimatedRTT = 0.875 * 0.0337 + 0.125 * 0.11443 = 0.0438
 
 **Segment 5**:
--   SampleRTT = 0.0438
+-   SampleRTT = 0.13989
 -   EstimatedRTT = 0.875 * 0.0438 + 0.125 * 0.13989 = 0.0558
 
 **Segment 6**:
--   SampleRTT = 0.0558
+-   SampleRTT = 0.18964
 -   EstimatedRTT = 0.875 * 0.0558 + 0.125 * 0.18964 = 0.0725 Second
 
 ---
