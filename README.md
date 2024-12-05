@@ -11,3 +11,4 @@ Untuk detail tugas 3 mengenai HTTP, DNS, SMTP. [Baca Disini!](./Tugas3/README.md
 
 ## UAS Semester Gasal 2024
 Untuk detail UAS Semester Gasal 2024. [Baca Disini!](./UAS_Ahmad%20Harun_1224800014/README.md)
+Video penjelasan pada pertanyaan nomor 6, saya lampirkan link Youtube yang terdapat pada README UAS bagian nomor 6.
